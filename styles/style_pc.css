@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(246, 238, 217);
+}
+
+.blocofixo {
+  min-height: 100px;
+  width: 100px;
+  background-color: rgb(195, 79, 79);
+  position: fixed;
+  z-index: calc(1);
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin-top: 100px;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 900px;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+  border: 7px solid rgb(9, 24, 55);
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+h2 {
+  color: rgb(9, 24, 55);
+}
+
+.ifaluno {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.if {
+  width: 50px;
+  background-color: rgb(202, 59, 77);
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 15%;
+  font-family: "Roboto", sans-serif;
+}
+
+.aluno {
+  width: 100px;
+  background-color: rgb(84, 245, 106);
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  font-family: "Roboto", sans-serif;
+}
+
+.container2 {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.blocotexto {
+  width: 30%;
+  margin-top: 22.5px;
+  margin-left: 22.5px;
+}
+
+.numero {
+  display: inline;
+  color: rgb(255, 0, 0);
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+}
+
+.titulo {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.texto {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  margin-left: 20px;
+}
